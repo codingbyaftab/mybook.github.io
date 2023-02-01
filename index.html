@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign up for MyBook | MyBook</title>
+    <link rel="icon" href="MB.png">
+    <style>
+        *{
+    background-color: #f1f3f5;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logotext{
+    color: #1976f2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    box-shadow: 10px 12px 5px gray;
+    overflow: hidden;
+    width: 250px;
+}
+.legend0{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fieldset0{
+    box-shadow: 20px 20px 20px 1px #1976f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    border: 3px;
+    border-style: dashed;
+    border-radius: 20px;
+    width: 30%;
+    height: 100%;
+    border-color: #000000;
+    animation: colorchange 5s infinite;
+}
+@keyframes colorchange {
+    0% { border-color: #1976f2; }
+    25% { border-color: rgb(255, 255, 255); }
+    50% { border-color: #1976f2; }
+    75% { border-color: #f1f3f5; }
+    100% { border-color: #1976f2; }
+  }
+.h31{
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    top: 1px;
+    color: rgb(49, 47, 47);
+}
+.formname{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    box-shadow: 1px 2px 5px 1px #000;
+}
+.formpe{
+    width: 310px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    box-shadow: 1px 2px 5px 1px #000;}
+.formpa{
+    width: 310px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    box-shadow: 1px 2px 5px 1px #000;
+}
+.formdate{
+
+    width: 310px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    box-shadow: 1px 2px 5px 1px #000;
+}
+.labelgender{
+    color: #000;
+    text-align: justify;
+    font-size: 20px;
+}
+  
+.login{
+    color: white;
+    font-size: 26px;
+    border-color: #1976f2;
+    border-radius: 10px;
+    background-color: rgb(30, 255, 0);
+}
+    </style>
+</head>
+<body>
+    <center>
+        <h1 class="logotext">MyBook</h1>
+        <fieldset class="fieldset0">
+            <legend class="legend0">Create a new account</legend>
+            <form>
+                <h3 class="h31">It's quick and easy.</h3>
+                <hr width="100%">
+                <label></label><input class="formname" type="name" placeholder="First Name" title="Enter Your First Name"><label></label><input class="formname" placeholder="Last Name" title="Enter Your Last Name"><br><br>
+                <label></label><input class="formpe" type="tel" name="fname" placeholder="Mobile Number or Email Address" title="Enter Your Phone Number or Email Address"><br><br>
+                <label></label><input class="formpa" type="password" name="fname" placeholder="New Password" title="Enter Password"><br><br>
+                <label></label><input class="formdate" title="Date of Birth" type="date"><br><br>
+                <div class="gen" title="Select Your Gender"><label class="labelgender">Gender</label> <input type="radio" name="gender" for="male"> <label>Male</label> <input type="radio" name="gender" id="female"> <label>Female</label></div><br><br><br>
+                <button class="login" type="submit" title="Click For Register Your ID">Sign up</button>
+            </form>
+        </fieldset>    
+    </center>
+</body>
+</html>
